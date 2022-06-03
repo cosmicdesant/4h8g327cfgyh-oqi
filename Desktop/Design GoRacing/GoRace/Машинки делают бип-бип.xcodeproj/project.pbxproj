@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC789EA8280A716300C7438D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC789EA7280A716300C7438D /* AppDelegate.swift */; };
+		AC789EAA280A716300C7438D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC789EA9280A716300C7438D /* SceneDelegate.swift */; };
+		AC789EAC280A716300C7438D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC789EAB280A716300C7438D /* ViewController.swift */; };
+		AC789EAF280A716300C7438D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC789EAD280A716300C7438D /* Main.storyboard */; };
+		AC789EB1280A716400C7438D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC789EB0280A716400C7438D /* Assets.xcassets */; };
+		AC789EB4280A716400C7438D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC789EB2280A716400C7438D /* LaunchScreen.storyboard */; };
+		AC789EBF280A716400C7438D /* ______________________Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC789EBE280A716400C7438D /* ______________________Tests.swift */; };
+		AC789EC9280A716400C7438D /* ______________________UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC789EC8280A716400C7438D /* ______________________UITests.swift */; };
+		AC789ECB280A716400C7438D /* ______________________UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC789ECA280A716400C7438D /* ______________________UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC789EBB280A716400C7438D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC789E9C280A716300C7438D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC789EA3280A716300C7438D;
+			remoteInfo = "Машинки делают бип-бип";
+		};
+		AC789EC5280A716400C7438D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC789E9C280A716300C7438D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC789EA3280A716300C7438D;
+			remoteInfo = "Машинки делают бип-бип";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC789EA4280A716300C7438D /* Машинки делают бип-бип.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Машинки делают бип-бип.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC789EA7280A716300C7438D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC789EA9280A716300C7438D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AC789EAB280A716300C7438D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC789EAE280A716300C7438D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC789EB0280A716400C7438D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC789EB3280A716400C7438D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC789EB5280A716400C7438D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC789EBA280A716400C7438D /* Машинки делают бип-бипTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Машинки делают бип-бипTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC789EBE280A716400C7438D /* ______________________Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "______________________Tests.swift"; sourceTree = "<group>"; };
+		AC789EC4280A716400C7438D /* Машинки делают бип-бипUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Машинки делают бип-бипUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC789EC8280A716400C7438D /* ______________________UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "______________________UITests.swift"; sourceTree = "<group>"; };
+		AC789ECA280A716400C7438D /* ______________________UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "______________________UITestsLaunchTests.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC789EA1280A716300C7438D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC789EB7280A716400C7438D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC789EC1280A716400C7438D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC789E9B280A716300C7438D = {
+			isa = PBXGroup;
+			children = (
+				AC789EA6280A716300C7438D /* Машинки делают бип-бип */,
+				AC789EBD280A716400C7438D /* Машинки делают бип-бипTests */,
+				AC789EC7280A716400C7438D /* Машинки делают бип-бипUITests */,
+				AC789EA5280A716300C7438D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC789EA5280A716300C7438D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC789EA4280A716300C7438D /* Машинки делают бип-бип.app */,
+				AC789EBA280A716400C7438D /* Машинки делают бип-бипTests.xctest */,
+				AC789EC4280A716400C7438D /* Машинки делают бип-бипUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC789EA6280A716300C7438D /* Машинки делают бип-бип */ = {
+			isa = PBXGroup;
+			children = (
+				AC789EA7280A716300C7438D /* AppDelegate.swift */,
+				AC789EA9280A716300C7438D /* SceneDelegate.swift */,
+				AC789EAB280A716300C7438D /* ViewController.swift */,
+				AC789EAD280A716300C7438D /* Main.storyboard */,
+				AC789EB0280A716400C7438D /* Assets.xcassets */,
+				AC789EB2280A716400C7438D /* LaunchScreen.storyboard */,
+				AC789EB5280A716400C7438D /* Info.plist */,
+			);
+			path = "Машинки делают бип-бип";
+			sourceTree = "<group>";
+		};
+		AC789EBD280A716400C7438D /* Машинки делают бип-бипTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC789EBE280A716400C7438D /* ______________________Tests.swift */,
+			);
+			path = "Машинки делают бип-бипTests";
+			sourceTree = "<group>";
+		};
+		AC789EC7280A716400C7438D /* Машинки делают бип-бипUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AC789EC8280A716400C7438D /* ______________________UITests.swift */,
+				AC789ECA280A716400C7438D /* ______________________UITestsLaunchTests.swift */,
+			);
+			path = "Машинки делают бип-бипUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC789EA3280A716300C7438D /* Машинки делают бип-бип */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC789ECE280A716400C7438D /* Build configuration list for PBXNativeTarget "Машинки делают бип-бип" */;
+			buildPhases = (
+				AC789EA0280A716300C7438D /* Sources */,
+				AC789EA1280A716300C7438D /* Frameworks */,
+				AC789EA2280A716300C7438D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Машинки делают бип-бип";
+			productName = "Машинки делают бип-бип";
+			productReference = AC789EA4280A716300C7438D /* Машинки делают бип-бип.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC789EB9280A716400C7438D /* Машинки делают бип-бипTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC789ED1280A716400C7438D /* Build configuration list for PBXNativeTarget "Машинки делают бип-бипTests" */;
+			buildPhases = (
+				AC789EB6280A716400C7438D /* Sources */,
+				AC789EB7280A716400C7438D /* Frameworks */,
+				AC789EB8280A716400C7438D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC789EBC280A716400C7438D /* PBXTargetDependency */,
+			);
+			name = "Машинки делают бип-бипTests";
+			productName = "Машинки делают бип-бипTests";
+			productReference = AC789EBA280A716400C7438D /* Машинки делают бип-бипTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC789EC3280A716400C7438D /* Машинки делают бип-бипUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC789ED4280A716400C7438D /* Build configuration list for PBXNativeTarget "Машинки делают бип-бипUITests" */;
+			buildPhases = (
+				AC789EC0280A716400C7438D /* Sources */,
+				AC789EC1280A716400C7438D /* Frameworks */,
+				AC789EC2280A716400C7438D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC789EC6280A716400C7438D /* PBXTargetDependency */,
+			);
+			name = "Машинки делают бип-бипUITests";
+			productName = "Машинки делают бип-бипUITests";
+			productReference = AC789EC4280A716400C7438D /* Машинки делают бип-бипUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC789E9C280A716300C7438D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					AC789EA3280A716300C7438D = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					AC789EB9280A716400C7438D = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = AC789EA3280A716300C7438D;
+					};
+					AC789EC3280A716400C7438D = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = AC789EA3280A716300C7438D;
+					};
+				};
+			};
+			buildConfigurationList = AC789E9F280A716300C7438D /* Build configuration list for PBXProject "Машинки делают бип-бип" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC789E9B280A716300C7438D;
+			productRefGroup = AC789EA5280A716300C7438D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC789EA3280A716300C7438D /* Машинки делают бип-бип */,
+				AC789EB9280A716400C7438D /* Машинки делают бип-бипTests */,
+				AC789EC3280A716400C7438D /* Машинки делают бип-бипUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC789EA2280A716300C7438D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC789EB4280A716400C7438D /* LaunchScreen.storyboard in Resources */,
+				AC789EB1280A716400C7438D /* Assets.xcassets in Resources */,
+				AC789EAF280A716300C7438D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC789EB8280A716400C7438D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC789EC2280A716400C7438D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC789EA0280A716300C7438D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC789EAC280A716300C7438D /* ViewController.swift in Sources */,
+				AC789EA8280A716300C7438D /* AppDelegate.swift in Sources */,
+				AC789EAA280A716300C7438D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC789EB6280A716400C7438D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC789EBF280A716400C7438D /* ______________________Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC789EC0280A716400C7438D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC789ECB280A716400C7438D /* ______________________UITestsLaunchTests.swift in Sources */,
+				AC789EC9280A716400C7438D /* ______________________UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC789EBC280A716400C7438D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC789EA3280A716300C7438D /* Машинки делают бип-бип */;
+			targetProxy = AC789EBB280A716400C7438D /* PBXContainerItemProxy */;
+		};
+		AC789EC6280A716400C7438D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC789EA3280A716300C7438D /* Машинки делают бип-бип */;
+			targetProxy = AC789EC5280A716400C7438D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC789EAD280A716300C7438D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC789EAE280A716300C7438D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC789EB2280A716400C7438D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC789EB3280A716400C7438D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC789ECC280A716400C7438D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC789ECD280A716400C7438D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC789ECF280A716400C7438D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Машинки делают бип-бип/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-------------7----------------.----------------------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC789ED0280A716400C7438D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Машинки делают бип-бип/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-------------7----------------.----------------------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AC789ED2280A716400C7438D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-------------7----------------.----------------------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Машинки делают бип-бип.app/Машинки делают бип-бип";
+			};
+			name = Debug;
+		};
+		AC789ED3280A716400C7438D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-------------7----------------.----------------------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Машинки делают бип-бип.app/Машинки делают бип-бип";
+			};
+			name = Release;
+		};
+		AC789ED5280A716400C7438D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-------------7----------------.----------------------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Машинки делают бип-бип";
+			};
+			name = Debug;
+		};
+		AC789ED6280A716400C7438D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-------------7----------------.----------------------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Машинки делают бип-бип";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC789E9F280A716300C7438D /* Build configuration list for PBXProject "Машинки делают бип-бип" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC789ECC280A716400C7438D /* Debug */,
+				AC789ECD280A716400C7438D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC789ECE280A716400C7438D /* Build configuration list for PBXNativeTarget "Машинки делают бип-бип" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC789ECF280A716400C7438D /* Debug */,
+				AC789ED0280A716400C7438D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC789ED1280A716400C7438D /* Build configuration list for PBXNativeTarget "Машинки делают бип-бипTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC789ED2280A716400C7438D /* Debug */,
+				AC789ED3280A716400C7438D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC789ED4280A716400C7438D /* Build configuration list for PBXNativeTarget "Машинки делают бип-бипUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC789ED5280A716400C7438D /* Debug */,
+				AC789ED6280A716400C7438D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC789E9C280A716300C7438D /* Project object */;
+}
